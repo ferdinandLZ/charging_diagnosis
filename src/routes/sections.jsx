@@ -39,7 +39,7 @@ export default function Router() {
     },
     {
       path: '*',
-      element: <Navigate to="/products" replace />,
+      element: <Navigate to="/404" replace />,
     },
   ]);
 
