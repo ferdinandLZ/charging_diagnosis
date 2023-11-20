@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 import React, { useState,  } from 'react';
-import Grid from '@mui/material/Unstable_Grid2';
+
 
 // import Dropdown from 'react-chart-editor/lib/components/widgets/Dropdown';
 // import FormControl from 'react-bootstrap/FormControl';
@@ -25,14 +25,6 @@ const Input = styled('input')({
 
 
 const Nav = ({ passvar, passtype}) => {
-
-  const [cells, setCells] = useState([]);
-  const [idarray, setIdArray] = useState([]);
-
-  // const [tempname, ] = useState('');
-
-  const [filestype, setFilesType] = useState('');
-
  
   const handleFile = (e) => {
 
@@ -42,7 +34,7 @@ const Nav = ({ passvar, passtype}) => {
     // console.log(files.type) //
     // console.log(content)//debug
     const taltaldata = content.split('\n').map( (el) => el.split(/\s+/) );
-    setCells(taltaldata.slice(1));
+
     passvar(taltaldata.slice(1));
     // console.log(taltaldata)
     let cellsAddr = taltaldata.filter((thing, index, self) =>
@@ -53,7 +45,7 @@ const Nav = ({ passvar, passtype}) => {
     cellsAddr = cellsAddr.slice(1)
     let cellsAddrarry = cellsAddr.map(line => line[3])
     cellsAddrarry = cellsAddrarry.filter(it => it);
-    setIdArray(cellsAddrarry)
+  
   }
   // path asc
   const handleFileasc = (e) => {
@@ -64,7 +56,7 @@ const Nav = ({ passvar, passtype}) => {
 
     const taltaldata = content.split('\n').map( (el) =>  el.split(/\s+/) );
 
-    setCells(taltaldata.slice(2));
+
     passvar(taltaldata.slice(2));
     // console.log(taltaldata);
     let cellsAddr = taltaldata.filter((thing, index, self) =>
@@ -78,14 +70,14 @@ const Nav = ({ passvar, passtype}) => {
     // console.log("celladrr:",cellsAddr);
     let cellsAddrarry = cellsAddr.map(line => line[2])// Can adress
     cellsAddrarry = cellsAddrarry.filter(it => it);
-    setIdArray(cellsAddrarry)
+
   }
   const handleChangeFile = (file) => {
     // console.log(file)
 
     const ftype = file.name.split('.').slice(1)[0];
     
-    setFilesType(ftype);
+
     //  debug
     // console.log(ftype);
     const fileData = new FileReader();
@@ -102,18 +94,18 @@ const Nav = ({ passvar, passtype}) => {
       case 'TXT':
         fileData.onloadend = handleFile;
         console.log("go to the txt branch")
-        setFilesType('txt');
+
         break;
       case 'ASC':
       case 'asc':
         fileData.onloadend = handleFileasc;
         console.log("go to the asc branch")
-        setFilesType('asc');
+
         break;
       default: 
         fileData.onloadend = handleFileasc;
         console.log("go to the asc branch")
-        setFilesType('asc');      
+     
   }
   }
 

@@ -1,49 +1,46 @@
-import PropTypes, { object } from 'prop-types';
+import PropTypes from 'prop-types';
 // import PropTypes from 'prop-types';
 import React, { useState, } from 'react';
 
 import { Button } from '@mui/material';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from '@mui/material/Container';
+
 import Grid from '@mui/material/Unstable_Grid2';
 import Typography from '@mui/material/Typography';
-
 
 import Nav from '../Nav';
 import canMessage from '../vector.json';
 import multicandic from '../mutimessage.json';
 import ChargingState from '../ChargingState';
+import CheckboxList from '../Checkboxlist';
 import SelectCellsData from '../SelectCellsData';
-import PCard from '../PCard';
-import CheckboxList from '../Checkboxlist'
-import DictionaryDisplay from '../DictionaryDisplay';
-import selectDataChart from '../SelectDataChart';
 import SimpleLineChart from '../SimpleLineChart';
+import DictionaryDisplay from '../DictionaryDisplay';
 import selectmultimessagedata from '../Selectmultimessagedata';
-import calculateStatistics from '../calculateStatistics';
 import AppWebsiteVisits from '../app-website-visits';
 import AppCurrentVisits from '../app-current-visits';
+import calculateStatistics from '../calculateStatistics';
+
 
 function Chargingplot() {
 
-  const [reslist, setreslist] = useState({});
   const [type, setType] = useState('txt');
   const [cells, setCells] = useState({});
   const [multicells, setMultiCells] = useState({});
   const [stateS, setStateS] = useState(new Array(18).fill(false));
   const [isDataLoaded, setIsDataLoaded] = useState(false);
   const [categoryState, setCategoryState] = useState({});
-  const [passlistNumber, setpasslistNumber] = useState([]);
+
   const [selectsignaldefault, setselectsignaldefault] = useState({});
   const [selectsignalbylist, setselectsignalbylist] = useState({});
   const [selectplotdata, setselectplotdata] = useState([]);
   const [voltagedata,setvoltagedata] = useState([]);
   const [currentdata,setcurrentdata] = useState([]);
   const [socpievalue,setsocpievalue] = useState([80,50,0])
-  const chargingstate = [];
+
   let cdata=[];
   let vdata=[];
-  let filetype = 'txt'
+
 
   const statedic = ["充电机充电握手报文", "充电机充电握手报文2", "BMS握手", "BMS握手2", "充电机辨识", "2#充电机辨识", '', '', "充电机同步时间信息", "充电桩最大输出能力",
     "BMS准备就绪（BRO）", "BMS准备就绪（BRO）2", "充电机准备就绪（CRO）", "2号充电机准备就绪（CRO）", "电池充电需求", "2#电池充电需求", "充电机充电状态", "2#充电机充电状态", "BSM2（发送动力电池状态信息2）", "BSM（BMS发送动力电池状态信息）"];
@@ -53,7 +50,7 @@ function Chargingplot() {
 
   const handleType = (Var) => {
     setType(Var);
-    filetype = Var;
+
 
   }
   const handleCells = (Var) => {
@@ -282,9 +279,7 @@ function Chargingplot() {
   }
 
   const handlepasslistnumber = (Var) => {
-    setpasslistNumber(Var)
-    // const resaultatindex = Var.map(index => Object.values(reslist)[index]);
-    // console.log(reslist)
+
 
 
 
@@ -404,7 +399,7 @@ function Chargingplot() {
     statelist.push(multicells['09'] !== undefined);
 
 
-    setreslist(resaultlist);
+  
     setStateS(statelist)
     // console.log(resaultlist)
     console.log(statelist)

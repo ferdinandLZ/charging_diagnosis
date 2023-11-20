@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
-
 import React, { useState } from 'react';
+
 import { TableContainer, Table, TableHead, TableRow, TableCell, TableBody, Button, Paper } from '@mui/material';
 
 function DictionaryDisplay({ selectdic, chargingStepState, toggleCategory,passselectedsignal}) {
-  const [selectedData, setSelectedData] = useState(null);
+
 
   const handleCellClick = (data) => {
     passselectedsignal(data);
