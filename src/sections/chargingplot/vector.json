@@ -1,0 +1,3090 @@
+{
+    "1798": {
+        "name": "from704",
+        "signals": []
+    },
+    "1806": {
+        "name": "to70C",
+        "signals": []
+    },
+    "2015": {
+        "name": "from7DF",
+        "signals": []
+    },
+    "2283689461": {
+        "name": "BMS充电错误报文2",
+        "signals": [
+            {
+                "address": "081E55F5",
+                "startBit": "40",
+                "endBit": "41",
+                "description": "timeout_CSD",
+                "desCH": "接收充电机统计数据报文超时"
+            },
+            {
+                "address": "081E55F5",
+                "startBit": "32",
+                "endBit": "33",
+                "description": "timeout_CST",
+                "desCH": "接收充电机充电中止报文超时"
+            },
+            {
+                "address": "081E55F5",
+                "startBit": "30",
+                "endBit": "31",
+                "description": "timeout_CCS",
+                "desCH": "接收充电机充电状态报文超时"
+            },
+            {
+                "address": "081E55F5",
+                "startBit": "22",
+                "endBit": "23",
+                "description": "timeout_CRO",
+                "desCH": "接收充电桩准备就绪报文超时"
+            },
+            {
+                "address": "081E55F5",
+                "startBit": "20",
+                "endBit": "21",
+                "description": "timeout_CMLorCTS",
+                "desCH": "接收充电桩时间同步信息或充电桩输出能力报文超时"
+            },
+            {
+                "address": "081E55F5",
+                "startBit": "12",
+                "endBit": "13",
+                "description": "timeout_CRM_AA",
+                "desCH": "接收0xAA的充电机辨识报文超时"
+            },
+            {
+                "address": "081E55F5",
+                "startBit": "10",
+                "endBit": "11",
+                "description": "timeout_CRM_00",
+                "desCH": "接收0x00的充电机辨识报文超时"
+            }
+        ]
+    },
+    "2283689716": {
+        "name": "BMS充电错误报文",
+        "signals": [
+            {
+                "address": "081E56F4",
+                "startBit": "40",
+                "endBit": "41",
+                "description": "timeout_CSD",
+                "desCH": "接收充电机统计数据报文超时"
+            },
+            {
+                "address": "081E56F4",
+                "startBit": "32",
+                "endBit": "33",
+                "description": "timeout_CST",
+                "desCH": "接收充电机充电中止报文超时"
+            },
+            {
+                "address": "081E56F4",
+                "startBit": "30",
+                "endBit": "31",
+                "description": "timeout_CCS",
+                "desCH": "接收充电机充电状态报文超时"
+            },
+            {
+                "address": "081E56F4",
+                "startBit": "22",
+                "endBit": "23",
+                "description": "timeout_CRO",
+                "desCH": "接收充电桩准备就绪报文超时"
+            },
+            {
+                "address": "081E56F4",
+                "startBit": "20",
+                "endBit": "21",
+                "description": "timeout_CMLorCTS",
+                "desCH": "接收充电桩时间同步信息或充电桩输出能力报文超时"
+            },
+            {
+                "address": "081E56F4",
+                "startBit": "12",
+                "endBit": "13",
+                "description": "timeout_CRM_AA",
+                "desCH": "接收0xAA的充电机辨识报文超时"
+            },
+            {
+                "address": "081E56F4",
+                "startBit": "10",
+                "endBit": "11",
+                "description": "timeout_CRM_00",
+                "desCH": "接收0x00的充电机辨识报文超时"
+            }
+        ]
+    },
+    "2283795542": {
+        "name": "充电机错误报文",
+        "signals": [
+            {
+                "address": "081FF456",
+                "startBit": "40",
+                "endBit": "41",
+                "description": "timeout_BSD",
+                "desCH": "接收BMS统计报文超时"
+            },
+            {
+                "address": "081FF456",
+                "startBit": "34",
+                "endBit": "35",
+                "description": "timeout_BST",
+                "desCH": "接收BMS充电中止报文超时"
+            },
+            {
+                "address": "081FF456",
+                "startBit": "32",
+                "endBit": "33",
+                "description": "timeout_BCL",
+                "desCH": "接收BMS充电需求报文超时"
+            },
+            {
+                "address": "081FF456",
+                "startBit": "30",
+                "endBit": "31",
+                "description": "timeout_BCS",
+                "desCH": "接收BMS充电状态报文超时"
+            },
+            {
+                "address": "081FF456",
+                "startBit": "22",
+                "endBit": "23",
+                "description": "timeout_BRO",
+                "desCH": "接收BMS就绪报文超时"
+            },
+            {
+                "address": "081FF456",
+                "startBit": "20",
+                "endBit": "21",
+                "description": "timeout_BCP",
+                "desCH": "接收动力电池参数报文超时"
+            },
+            {
+                "address": "081FF456",
+                "startBit": "10",
+                "endBit": "11",
+                "description": "timeout_BRM",
+                "desCH": "接收辨识报文超时"
+            }
+        ]
+    },
+    "2283795797": {
+        "name": "充电机错误报文2",
+        "signals": [
+            {
+                "address": "081FF555",
+                "startBit": "40",
+                "endBit": "41",
+                "description": "timeout_BSD",
+                "desCH": "接收BMS统计报文超时"
+            },
+            {
+                "address": "081FF555",
+                "startBit": "34",
+                "endBit": "35",
+                "description": "timeout_BST",
+                "desCH": "接收BMS充电中止报文超时"
+            },
+            {
+                "address": "081FF555",
+                "startBit": "32",
+                "endBit": "33",
+                "description": "timeout_BCL",
+                "desCH": "接收BMS充电需求报文超时"
+            },
+            {
+                "address": "081FF555",
+                "startBit": "30",
+                "endBit": "31",
+                "description": "timeout_BCS",
+                "desCH": "接收BMS充电状态报文超时"
+            },
+            {
+                "address": "081FF555",
+                "startBit": "22",
+                "endBit": "23",
+                "description": "timeout_BRO",
+                "desCH": "接收BMS就绪报文超时"
+            },
+            {
+                "address": "081FF555",
+                "startBit": "20",
+                "endBit": "21",
+                "description": "timeout_BCP",
+                "desCH": "接收动力电池参数报文超时"
+            },
+            {
+                "address": "081FF555",
+                "startBit": "10",
+                "endBit": "11",
+                "description": "timeout_BRM",
+                "desCH": "接收辨识报文超时"
+            }
+        ]
+    },
+    "2416530933": {
+        "name": "BMS准备就绪（BRO）2",
+        "signals": [
+            {
+                "address": "100955F5",
+                "startBit": "10",
+                "endBit": "17",
+                "description": "vehicleReady",
+                "desCH": "BMS准备状态"
+            }
+        ]
+    },
+    "2416531188": {
+        "name": "BMS准备就绪（BRO）",
+        "signals": [
+            {
+                "address": "100956F4",
+                "startBit": "10",
+                "endBit": "17",
+                "description": "vehicleReady",
+                "desCH": "BMS准备状态"
+            }
+        ]
+    },
+    "2416637014": {
+        "name": "充电机准备就绪（CRO）",
+        "signals": [
+            {
+                "address": "100AF456",
+                "startBit": "10",
+                "endBit": "17",
+                "description": "chargerReady",
+                "desCH": "充电桩准备状态"
+            }
+        ]
+    },
+    "2416637269": {
+        "name": "2号充电机准备就绪（CRO）",
+        "signals": [
+            {
+                "address": "100AF555",
+                "startBit": "10",
+                "endBit": "17",
+                "description": "chargerReady",
+                "desCH": "充电桩准备状态"
+            }
+        ]
+    },
+    "2417579509": {
+        "name": "BMS终止充电（BST）2",
+        "signals": [
+            {
+                "address": "101955F5",
+                "startBit": "42",
+                "endBit": "43",
+                "description": "voltage_abnormal",
+                "desCH": "电压异常报警(直流充电机预充失败)"
+            },
+            {
+                "address": "101955F5",
+                "startBit": "36",
+                "endBit": "37",
+                "description": "other",
+                "desCH": "其他故障"
+            },
+            {
+                "address": "101955F5",
+                "startBit": "34",
+                "endBit": "35",
+                "description": "checkpoint2",
+                "desCH": "检测点2电压检测故障(直流充电接触器状态)"
+            },
+            {
+                "address": "101955F5",
+                "startBit": "32",
+                "endBit": "33",
+                "description": "relay",
+                "desCH": "高压继电器故障"
+            },
+            {
+                "address": "101955F5",
+                "startBit": "30",
+                "endBit": "31",
+                "description": "package_overheat",
+                "desCH": "电池组温度过高故障"
+            },
+            {
+                "address": "101955F5",
+                "startBit": "26",
+                "endBit": "27",
+                "description": "chargeConetor",
+                "desCH": "充电连接器故障"
+            },
+            {
+                "address": "101955F5",
+                "startBit": "24",
+                "endBit": "25",
+                "description": "bms_overheat",
+                "desCH": "BMS元件、输出连接器过温故障"
+            },
+            {
+                "address": "101955F5",
+                "startBit": "40",
+                "endBit": "41",
+                "description": "over_current",
+                "desCH": "电流过流报警"
+            },
+            {
+                "address": "101955F5",
+                "startBit": "10",
+                "endBit": "11",
+                "description": "SOC",
+                "desCH": "达到需求SOC"
+            },
+            {
+                "address": "101955F5",
+                "startBit": "22",
+                "endBit": "23",
+                "description": "conetorOverheat",
+                "desCH": "输出连接器过温故障"
+            },
+            {
+                "address": "101955F5",
+                "startBit": "20",
+                "endBit": "21",
+                "description": "leakage",
+                "desCH": "绝缘故障"
+            },
+            {
+                "address": "101955F5",
+                "startBit": "16",
+                "endBit": "17",
+                "description": "getCST",
+                "desCH": "充电机主动中止"
+            },
+            {
+                "address": "101955F5",
+                "startBit": "14",
+                "endBit": "15",
+                "description": "aimSingleVoltage",
+                "desCH": "达到单体电压值"
+            },
+            {
+                "address": "101955F5",
+                "startBit": "12",
+                "endBit": "13",
+                "description": "aimVoltage",
+                "desCH": "达到需求总电压"
+            }
+        ]
+    },
+    "2417579764": {
+        "name": "BMS终止充电（BST）",
+        "signals": [
+            {
+                "address": "101956f4",
+                "startBit": "42",
+                "endBit": "43",
+                "description": "voltage_abnormal",
+                "desCH": "电压异常报警(直流充电机预充失败)"
+            },
+            {
+                "address": "101956f4",
+                "startBit": "36",
+                "endBit": "37",
+                "description": "other",
+                "desCH": "其他故障"
+            },
+            {
+                "address": "101956f4",
+                "startBit": "34",
+                "endBit": "35",
+                "description": "checkpoint2",
+                "desCH": "检测点2电压检测故障(直流充电接触器状态)"
+            },
+            {
+                "address": "101956f4",
+                "startBit": "32",
+                "endBit": "33",
+                "description": "relay",
+                "desCH": "高压继电器故障"
+            },
+            {
+                "address": "101956f4",
+                "startBit": "30",
+                "endBit": "31",
+                "description": "package_overheat",
+                "desCH": "电池组温度过高故障"
+            },
+            {
+                "address": "101956f4",
+                "startBit": "26",
+                "endBit": "27",
+                "description": "chargeConetor",
+                "desCH": "充电连接器故障"
+            },
+            {
+                "address": "101956f4",
+                "startBit": "24",
+                "endBit": "25",
+                "description": "bms_overheat",
+                "desCH": "BMS元件、输出连接器过温故障"
+            },
+            {
+                "address": "101956f4",
+                "startBit": "40",
+                "endBit": "41",
+                "description": "over_current",
+                "desCH": "电流过流报警"
+            },
+            {
+                "address": "101956f4",
+                "startBit": "10",
+                "endBit": "11",
+                "description": "SOC",
+                "desCH": "达到需求SOC"
+            },
+            {
+                "address": "101956f4",
+                "startBit": "22",
+                "endBit": "23",
+                "description": "conetorOverheat",
+                "desCH": "输出连接器过温故障"
+            },
+            {
+                "address": "101956f4",
+                "startBit": "20",
+                "endBit": "21",
+                "description": "leakage",
+                "desCH": "绝缘故障"
+            },
+            {
+                "address": "101956f4",
+                "startBit": "16",
+                "endBit": "17",
+                "description": "getCST",
+                "desCH": "充电机主动中止"
+            },
+            {
+                "address": "101956f4",
+                "startBit": "14",
+                "endBit": "15",
+                "description": "aimSingleVoltage",
+                "desCH": "达到单体电压值"
+            },
+            {
+                "address": "101956f4",
+                "startBit": "12",
+                "endBit": "13",
+                "description": "aimVoltage",
+                "desCH": "达到需求总电压"
+            }
+        ]
+    },
+    "2417685590": {
+        "name": "充电机中止充电（CST）",
+        "signals": [
+            {
+                "address": "101AF456",
+                "startBit": "42",
+                "endBit": "43",
+                "description": "voltage_abnormal",
+                "desCH": "电压异常"
+            },
+            {
+                "address": "101AF456",
+                "startBit": "40",
+                "endBit": "41",
+                "description": "currentNoMatch",
+                "desCH": "电流不匹配故障"
+            },
+            {
+                "address": "101AF456",
+                "startBit": "32",
+                "endBit": "33",
+                "description": "other",
+                "desCH": "其他故障"
+            },
+            {
+                "address": "101AF456",
+                "startBit": "26",
+                "endBit": "27",
+                "description": "cantSend",
+                "desCH": "所需电量不能传送"
+            },
+            {
+                "address": "101AF456",
+                "startBit": "24",
+                "endBit": "25",
+                "description": "InsideOverheat",
+                "desCH": "充电机内部过温"
+            },
+            {
+                "address": "101AF456",
+                "startBit": "22",
+                "endBit": "23",
+                "description": "chargeConetor",
+                "desCH": "充电连接器故障"
+            },
+            {
+                "address": "101AF456",
+                "startBit": "20",
+                "endBit": "21",
+                "description": "chargerOverheat",
+                "desCH": "充电机过温"
+            },
+            {
+                "address": "101AF456",
+                "startBit": "30",
+                "endBit": "31",
+                "description": "emergencyStop",
+                "desCH": "充电机急停故障"
+            },
+            {
+                "address": "101AF456",
+                "startBit": "16",
+                "endBit": "17",
+                "description": "BMSStop",
+                "desCH": "BMS主动终止"
+            },
+            {
+                "address": "101AF456",
+                "startBit": "12",
+                "endBit": "13",
+                "description": "manualStop",
+                "desCH": "人工中止"
+            },
+            {
+                "address": "101AF456",
+                "startBit": "14",
+                "endBit": "15",
+                "description": "abnormalStop",
+                "desCH": "故障中止"
+            },
+            {
+                "address": "101AF456",
+                "startBit": "10",
+                "endBit": "11",
+                "description": "aimStop",
+                "desCH": "达到充电机充电终止条件"
+            }
+        ]
+    },
+    "2417685845": {
+        "name": "充电机中止充电（CST）2",
+        "signals": [
+            {
+                "address": "101AF555",
+                "startBit": "42",
+                "endBit": "43",
+                "description": "voltage_abnormal",
+                "desCH": "电压异常"
+            },
+            {
+                "address": "101AF555",
+                "startBit": "40",
+                "endBit": "41",
+                "description": "currentNoMatch",
+                "desCH": "电流不匹配故障"
+            },
+            {
+                "address": "101AF555",
+                "startBit": "32",
+                "endBit": "33",
+                "description": "other",
+                "desCH": "其他故障"
+            },
+            {
+                "address": "101AF555",
+                "startBit": "26",
+                "endBit": "27",
+                "description": "cantSend",
+                "desCH": "所需电量不能传送"
+            },
+            {
+                "address": "101AF555",
+                "startBit": "24",
+                "endBit": "25",
+                "description": "InsideOverheat",
+                "desCH": "充电机内部过温"
+            },
+            {
+                "address": "101AF555",
+                "startBit": "22",
+                "endBit": "23",
+                "description": "chargeConetor",
+                "desCH": "充电连接器故障"
+            },
+            {
+                "address": "101AF555",
+                "startBit": "20",
+                "endBit": "21",
+                "description": "chargerOverheat",
+                "desCH": "充电机过温"
+            },
+            {
+                "address": "101AF555",
+                "startBit": "30",
+                "endBit": "31",
+                "description": "emergencyStop",
+                "desCH": "充电机急停故障"
+            },
+            {
+                "address": "101AF555",
+                "startBit": "16",
+                "endBit": "17",
+                "description": "BMSStop",
+                "desCH": "BMS主动终止"
+            },
+            {
+                "address": "101AF555",
+                "startBit": "12",
+                "endBit": "13",
+                "description": "manualStop",
+                "desCH": "人工中止"
+            },
+            {
+                "address": "101AF555",
+                "startBit": "14",
+                "endBit": "15",
+                "description": "abnormalStop",
+                "desCH": "故障中止"
+            },
+            {
+                "address": "101AF555",
+                "startBit": "10",
+                "endBit": "11",
+                "description": "aimStop",
+                "desCH": "达到充电机充电终止条件"
+            }
+        ]
+    },
+    "2550264918": {
+        "name": "充电机辨识",
+        "signals": [
+            {
+                "address": "1801F456",
+                "startBit": "10",
+                "endBit": "17",
+                "description": "CRM_Recognising",
+                "desCH": "辨识结果"
+            }
+        ]
+    },
+    "2550265173": {
+        "name": "2#充电机辨识",
+        "signals": [
+            {
+                "address": "1801F555",
+                "startBit": "10",
+                "endBit": "17",
+                "description": "CRM_Recognising2",
+                "desCH": "2#辨识结果"
+            }
+        ]
+    },
+    "2550658134": {
+        "name": "充电机同步时间信息",
+        "signals": [
+            {
+                "address": "1807F456",
+                "startBit": "10",
+                "endBit": "17",
+                "description": "TIMES",
+                "desCH": "充电机同步时间信息（不解析）"
+            }
+        ]
+    },
+    "2550723670": {
+        "name": "充电桩最大输出能力",
+        "signals": [
+            {
+                "address": "1808F456",
+                "startBit": "70",
+                "endBit": "87",
+                "description": "minChargeCurrent",
+                "desCH": "充电桩最低输出电流"
+            },
+            {
+                "address": "1808F456",
+                "startBit": "50",
+                "endBit": "67",
+                "description": "maxChargeCurrent",
+                "desCH": "充电桩最大输出电流"
+            },
+            {
+                "address": "1808F456",
+                "startBit": "30",
+                "endBit": "47",
+                "description": "minChargeVoltage",
+                "desCH": "充电桩最低输出电压"
+            },
+            {
+                "address": "1808F456",
+                "startBit": "10",
+                "endBit": "27",
+                "description": "maxChargeVoltage",
+                "desCH": "充电桩最高输出电压"
+            }
+        ]
+    },
+    "2550723925": {
+        "name": "2#充电桩最大输出能力",
+        "signals": [
+            {
+                "address": "1808F555",
+                "startBit": "70",
+                "endBit": "87",
+                "description": "minChargeCurrent",
+                "desCH": "2#充电桩最低输出电流"
+            },
+            {
+                "address": "1808F555",
+                "startBit": "50",
+                "endBit": "67",
+                "description": "maxChargeCurrent",
+                "desCH": "2#充电桩最大输出电流"
+            },
+            {
+                "address": "1808F555",
+                "startBit": "30",
+                "endBit": "47",
+                "description": "minChargeVoltage",
+                "desCH": "2#充电桩最低输出电压"
+            },
+            {
+                "address": "1808F555",
+                "startBit": "10",
+                "endBit": "27",
+                "description": "maxChargeVoltage",
+                "desCH": "2#充电桩最高输出电压"
+            }
+        ]
+    },
+    "2550854765": {
+        "name": "日标充电EVCC状态报文",
+        "signals": [
+            {
+                "address": "180AF46D",
+                "startBit": "60",
+                "endBit": "67",
+                "description": "EprocessState",
+                "desCH": "E处理流程状态",
+                "valueDescriptions": [
+                    {
+                        "58": "插枪待机状态",
+                        "60": "充放电模式启动",
+                        "61": "充电模式启动",
+                        "225": "E流程处理阶段"
+                    }
+                ]
+            },
+            {
+                "address": "180AF46D",
+                "startBit": "52",
+                "endBit": "53",
+                "description": "SwitchD1_OCEP_F",
+                "desCH": "D1开关状态:光耦信号（f）",
+                "valueDescriptions": [
+                    {
+                        "0": "断开",
+                        "1": "闭合"
+                    }
+                ]
+            },
+            {
+                "address": "180AF46D",
+                "startBit": "50",
+                "endBit": "51",
+                "description": "SwitchD2_OCEP_G",
+                "desCH": "D2开关状态:光耦信号 （g）",
+                "valueDescriptions": [
+                    {
+                        "0": "断开",
+                        "1": "闭合"
+                    }
+                ]
+            },
+            {
+                "address": "180AF46D",
+                "startBit": "46",
+                "endBit": "47",
+                "description": "elock_JPchg",
+                "desCH": "电锁状态（日标充电）",
+                "valueDescriptions": [
+                    {
+                        "0": "解锁",
+                        "1": "闭锁"
+                    }
+                ]
+            },
+            {
+                "address": "180AF46D",
+                "startBit": "44",
+                "endBit": "45",
+                "description": "SwitchK",
+                "desCH": "开关K状态（0关断1闭合）",
+                "valueDescriptions": [
+                    {
+                        "0": "断开",
+                        "1": "闭合"
+                    }
+                ]
+            },
+            {
+                "address": "180AF46D",
+                "startBit": "42",
+                "endBit": "43",
+                "description": "chgerState",
+                "desCH": "充电机充电状态",
+                "valueDescriptions": [
+                    {
+                        "0": "关闭",
+                        "1": "启动"
+                    }
+                ]
+            },
+            {
+                "address": "180AF46D",
+                "startBit": "40",
+                "endBit": "41",
+                "description": "chgerSinterCheck",
+                "desCH": "充电柜烧结检测功能 - 接收支持烧结检测状态后才对烧结检测结果进行判断",
+                "valueDescriptions": [
+                    {
+                        "0": "关闭",
+                        "1": "启动"
+                    }
+                ]
+            },
+            {
+                "address": "180AF46D",
+                "startBit": "20",
+                "endBit": "37",
+                "description": "evcc_aimVotg",
+                "desCH": "请求升压电压值.（最小放电电压目标值）- 升压模式2下请求电压 "
+            },
+            {
+                "address": "180AF46D",
+                "startBit": "16",
+                "endBit": "17",
+                "description": "evcc_start",
+                "desCH": "充放电启动标识",
+                "valueDescriptions": [
+                    {
+                        "0": "EVPS（绝缘检测）未就绪",
+                        "1": "EVPS（绝缘检测）就绪",
+                        "2": "开始充放电",
+                        "3": "结束充放电"
+                    }
+                ]
+            },
+            {
+                "address": "180AF46D",
+                "startBit": "14",
+                "endBit": "15",
+                "description": "evcc_flag",
+                "desCH": "充电/充放电标识",
+                "valueDescriptions": [
+                    {
+                        "0": "充电模式",
+                        "1": "充放电模式"
+                    }
+                ]
+            },
+            {
+                "address": "180AF46D",
+                "startBit": "10",
+                "endBit": "11",
+                "description": "cannelRequest",
+                "desCH": "充电升压总成通路模式请求",
+                "valueDescriptions": [
+                    {
+                        "0": "升压请求",
+                        "1": "通路请求"
+                    }
+                ]
+            }
+        ]
+    },
+    "2551051376": {
+        "name": "升压总成电压状态报文",
+        "signals": [
+            {
+                "address": "180DF470",
+                "startBit": "40",
+                "endBit": "47",
+                "description": "sinterTemp",
+                "desCH": "升压DC烧结检测模块温度"
+            },
+            {
+                "address": "180DF470",
+                "startBit": "30",
+                "endBit": "31",
+                "description": "boostDCerr",
+                "desCH": "升压DC故障状态",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "180DF470",
+                "startBit": "10",
+                "endBit": "27",
+                "description": "plugSideVotg",
+                "desCH": "升压总成充电口侧电压"
+            }
+        ]
+    },
+    "2551116913": {
+        "name": "升压总成电流电压报文",
+        "signals": [
+            {
+                "address": "180EF471",
+                "startBit": "70",
+                "endBit": "87",
+                "description": "chgSideVotg",
+                "desCH": "充电升压总成充电侧电压"
+            },
+            {
+                "address": "180EF471",
+                "startBit": "50",
+                "endBit": "67",
+                "description": "battSideCurrent",
+                "desCH": "充电升压总成电池侧电流"
+            },
+            {
+                "address": "180EF471",
+                "startBit": "30",
+                "endBit": "47",
+                "description": "chgSideCurrent",
+                "desCH": "充电升压总成充电侧电流"
+            },
+            {
+                "address": "180EF471",
+                "startBit": "10",
+                "endBit": "27",
+                "description": "battSideVotg",
+                "desCH": "升压总成电池侧电压"
+            }
+        ]
+    },
+    "2551182449": {
+        "name": "升压总成故障报文",
+        "signals": [
+            {
+                "address": "180FF471",
+                "startBit": "62",
+                "endBit": "63",
+                "description": "chgSideOverCurrF",
+                "desCH": "升压DC 充电测过流快保护",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "60",
+                "endBit": "61",
+                "description": "batSideOverVotgF",
+                "desCH": "升压DC 电池侧过压快保护",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "56",
+                "endBit": "57",
+                "description": "chgSideOverVotgF",
+                "desCH": "升压DC 充电侧过压快保护",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "54",
+                "endBit": "55",
+                "description": "EVCCtimeout",
+                "desCH": "升压DC 与EVCC通讯超时",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "52",
+                "endBit": "53",
+                "description": "BMStimeout",
+                "desCH": "升压DC 与BMS通讯超时",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "50",
+                "endBit": "51",
+                "description": "overCurrent",
+                "desCH": "升压DC 硬件过流",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "42",
+                "endBit": "43",
+                "description": "overVotg",
+                "desCH": "升压DC 硬件过压",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "40",
+                "endBit": "41",
+                "description": "votgTimeout",
+                "desCH": "升压DC 调压超时",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "36",
+                "endBit": "37",
+                "description": "overheat_L",
+                "desCH": "升压DC 电感过温",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "34",
+                "endBit": "35",
+                "description": "OverheatLimit",
+                "desCH": "升压DC 过温限功率",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "32",
+                "endBit": "33",
+                "description": "IGBToverheat",
+                "desCH": "升压DC IGBT过温故障",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "30",
+                "endBit": "31",
+                "description": "IPMerr",
+                "desCH": "升压DCIPM故障",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "26",
+                "endBit": "27",
+                "description": "bridgeErr",
+                "desCH": "升压DC桥臂故障",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "24",
+                "endBit": "25",
+                "description": "chgSideOverCurre",
+                "desCH": "升压DC充电侧过流慢保护",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "22",
+                "endBit": "23",
+                "description": "battSideOverVotg",
+                "desCH": "升压DC电池侧过压慢保护",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "20",
+                "endBit": "21",
+                "description": "battSideLowVotg",
+                "desCH": "升压DC电池侧欠压",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "16",
+                "endBit": "17",
+                "description": "chgSideOverVotg",
+                "desCH": "升压DC充电侧过压慢保护",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "14",
+                "endBit": "15",
+                "description": "chgSideLowVotgS",
+                "desCH": "升压DC充电侧欠压",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "12",
+                "endBit": "13",
+                "description": "DCDC_hall",
+                "desCH": "升压DC霍尔故障",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "故障",
+                        "2": "保留",
+                        "3": "不可用"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "10",
+                "endBit": "11",
+                "description": "DCDC_state",
+                "desCH": "升压DC工作状态",
+                "valueDescriptions": [
+                    {
+                        "0": "关闭",
+                        "1": "启动"
+                    }
+                ]
+            },
+            {
+                "address": "180FF471",
+                "startBit": "44",
+                "endBit": "47",
+                "description": "DCDC_err",
+                "desCH": "充电升压总成故障状态",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "一级故障（报警）",
+                        "2": "二级故障（限功率）",
+                        "3": "三级故障（关机）"
+                    }
+                ]
+            }
+        ]
+    },
+    "2551207413": {
+        "name": "2#电池充电需求",
+        "signals": [
+            {
+                "address": "181055F5",
+                "startBit": "60",
+                "endBit": "60",
+                "description": "bulkChgFlag2",
+                "desCH": "Bulk charge complet flag2"
+            },
+            {
+                "address": "181055F5",
+                "startBit": "50",
+                "endBit": "57",
+                "description": "chgMode2",
+                "desCH": "充电模式2"
+            },
+            {
+                "address": "181055F5",
+                "startBit": "10",
+                "endBit": "27",
+                "description": "reqVoltage_2",
+                "desCH": "需求电压2（BCL2）"
+            },
+            {
+                "address": "181055F5",
+                "startBit": "30",
+                "endBit": "47",
+                "description": "reqCurrent_2",
+                "desCH": "需求电流2（BCL2）"
+            }
+        ]
+    },
+    "2551207668": {
+        "name": "电池充电需求",
+        "signals": [
+            {
+                "address": "181056F4",
+                "startBit": "60",
+                "endBit": "60",
+                "description": "bulkChgFlag",
+                "desCH": "Bulk charge complet flag"
+            },
+            {
+                "address": "181056F4",
+                "startBit": "50",
+                "endBit": "57",
+                "description": "chgMode",
+                "desCH": "充电模式"
+            },
+            {
+                "address": "181056F4",
+                "startBit": "10",
+                "endBit": "27",
+                "description": "reqVoltage",
+                "desCH": "需求电压（BCL）"
+            },
+            {
+                "address": "181056F4",
+                "startBit": "30",
+                "endBit": "47",
+                "description": "reqCurrent",
+                "desCH": "需求电流（BCL）"
+            }
+        ]
+    },
+    "2551379030": {
+        "name": "充电机充电状态",
+        "signals": [
+            {
+                "address": "1812F456",
+                "startBit": "10",
+                "endBit": "27",
+                "description": "outputVoltage",
+                "desCH": "输出电压（CCS）"
+            },
+            {
+                "address": "1812F456",
+                "startBit": "30",
+                "endBit": "47",
+                "description": "outputCurrent",
+                "desCH": "输出电流（CCS）"
+            }
+        ]
+    },
+    "2551379285": {
+        "name": "2#充电机充电状态",
+        "signals": [
+            {
+                "address": "1812F555",
+                "startBit": "10",
+                "endBit": "27",
+                "description": "outputVoltage_2",
+                "desCH": "输出电压2（CCS2）"
+            },
+            {
+                "address": "1812F555",
+                "startBit": "30",
+                "endBit": "47",
+                "description": "outputCurrent_2",
+                "desCH": "输出电流2（CCS2）"
+            }
+        ]
+    },
+    "2551404021": {
+        "name": "BSM2（发送动力电池状态信息2）",
+        "signals": [
+            {
+                "address": "181355F5",
+                "startBit": "74",
+                "endBit": "75",
+                "description": "chgAllowSt2",
+                "desCH": "充电时充电允许状态2"
+            },
+            {
+                "address": "181355F5",
+                "startBit": "72",
+                "endBit": "73",
+                "description": "outConnectorSt2",
+                "desCH": "充电时输出连接器状态2"
+            },
+            {
+                "address": "181355F5",
+                "startBit": "70",
+                "endBit": "71",
+                "description": "leakageAlert2",
+                "desCH": "充电时漏电报警2"
+            },
+            {
+                "address": "181355F5",
+                "startBit": "66",
+                "endBit": "67",
+                "description": "tempAlert2",
+                "desCH": "充电时温度报警2"
+            },
+            {
+                "address": "181355F5",
+                "startBit": "64",
+                "endBit": "65",
+                "description": "currentAlert2",
+                "desCH": "充电时电流报警2"
+            },
+            {
+                "address": "181355F5",
+                "startBit": "62",
+                "endBit": "63",
+                "description": "SOCAlert2",
+                "desCH": "充电时SOC报警2"
+            },
+            {
+                "address": "181355F5",
+                "startBit": "60",
+                "endBit": "61",
+                "description": "cellVotgAlert2",
+                "desCH": "充电时单节电压报警2"
+            },
+            {
+                "address": "181355F5",
+                "startBit": "40",
+                "endBit": "47",
+                "description": "cellTempMin2",
+                "desCH": "充电时单节最低温度2"
+            },
+            {
+                "address": "181355F5",
+                "startBit": "20",
+                "endBit": "27",
+                "description": "cellTempMax2",
+                "desCH": "充电时单节最高温度2"
+            }
+        ]
+    },
+    "2551404276": {
+        "name": "BSM（BMS发送动力电池状态信息）",
+        "signals": [
+            {
+                "address": "181356F4",
+                "startBit": "74",
+                "endBit": "75",
+                "description": "chgAllowSt",
+                "desCH": "充电时充电允许状态"
+            },
+            {
+                "address": "181356F4",
+                "startBit": "72",
+                "endBit": "73",
+                "description": "outConnectorSt",
+                "desCH": "充电时输出连接器状态"
+            },
+            {
+                "address": "181356F4",
+                "startBit": "70",
+                "endBit": "71",
+                "description": "leakageAlert",
+                "desCH": "充电时漏电报警"
+            },
+            {
+                "address": "181356F4",
+                "startBit": "66",
+                "endBit": "67",
+                "description": "tempAlert",
+                "desCH": "充电时温度报警"
+            },
+            {
+                "address": "181356F4",
+                "startBit": "64",
+                "endBit": "65",
+                "description": "currentAlert",
+                "desCH": "充电时电流报警"
+            },
+            {
+                "address": "181356F4",
+                "startBit": "62",
+                "endBit": "63",
+                "description": "SOCAlert",
+                "desCH": "充电时SOC报警"
+            },
+            {
+                "address": "181356F4",
+                "startBit": "60",
+                "endBit": "61",
+                "description": "cellVotgAlert",
+                "desCH": "充电时单节电压报警"
+            },
+            {
+                "address": "181356F4",
+                "startBit": "40",
+                "endBit": "47",
+                "description": "cellTempMin",
+                "desCH": "充电时单节最低温度"
+            },
+            {
+                "address": "181356F4",
+                "startBit": "20",
+                "endBit": "27",
+                "description": "cellTempMax",
+                "desCH": "充电时单节最高温度"
+            }
+        ]
+    },
+    "2551993845": {
+        "name": "BMS统计数据2",
+        "signals": [
+            {
+                "address": "181C55F5",
+                "startBit": "70",
+                "endBit": "77",
+                "description": "CellTempMax2",
+                "desCH": "2#充电结束时单节最高温度"
+            },
+            {
+                "address": "181C55F5",
+                "startBit": "60",
+                "endBit": "67",
+                "description": "CellTempMin2",
+                "desCH": "2#充电结束时单节最低温度"
+            },
+            {
+                "address": "181C55F5",
+                "startBit": "40",
+                "endBit": "57",
+                "description": "CellVotgMax2",
+                "desCH": "2#单节最高电压"
+            },
+            {
+                "address": "181C55F5",
+                "startBit": "20",
+                "endBit": "37",
+                "description": "CellVotgMin2",
+                "desCH": "2#单节最低电压"
+            },
+            {
+                "address": "181C55F5",
+                "startBit": "10",
+                "endBit": "17",
+                "description": "stopSOC2",
+                "desCH": "2#充电结束时SOC"
+            }
+        ]
+    },
+    "2551994100": {
+        "name": "BMS统计数据",
+        "signals": [
+            {
+                "address": "181C56F4",
+                "startBit": "70",
+                "endBit": "77",
+                "description": "CellTempMax",
+                "desCH": "充电结束时单节最高温度"
+            },
+            {
+                "address": "181C56F4",
+                "startBit": "60",
+                "endBit": "67",
+                "description": "CellTempMin",
+                "desCH": "充电结束时单节最低温度"
+            },
+            {
+                "address": "181C56F4",
+                "startBit": "40",
+                "endBit": "57",
+                "description": "CellVotgMax",
+                "desCH": "单节最高电压"
+            },
+            {
+                "address": "181C56F4",
+                "startBit": "20",
+                "endBit": "37",
+                "description": "CellVotgMin",
+                "desCH": "单节最低电压"
+            },
+            {
+                "address": "181C56F4",
+                "startBit": "10",
+                "endBit": "17",
+                "description": "stopSOC",
+                "desCH": "充电结束时SOC"
+            }
+        ]
+    },
+    "2552099926": {
+        "name": "充电机统计数据",
+        "signals": [
+            {
+                "address": "181DF456",
+                "startBit": "30",
+                "endBit": "47",
+                "description": "totalChgQuantity",
+                "desCH": "充电结束时累计充电电量"
+            },
+            {
+                "address": "181DF456",
+                "startBit": "10",
+                "endBit": "27",
+                "description": "totalChgTime",
+                "desCH": "充电结束时累计充电时间"
+            }
+        ]
+    },
+    "2552100181": {
+        "name": "2#充电机统计数据",
+        "signals": [
+            {
+                "address": "181DF456",
+                "startBit": "30",
+                "endBit": "47",
+                "description": "totalChgQuantity",
+                "desCH": "充电结束时累计充电电量"
+            },
+            {
+                "address": "181DF456",
+                "startBit": "10",
+                "endBit": "27",
+                "description": "totalChgTime",
+                "desCH": "充电结束时累计充电时间"
+            }
+        ]
+    },
+    "2552231025": {
+        "name": "升压总成状态报文-温度、电流",
+        "signals": [
+            {
+                "address": "181FF471",
+                "startBit": "30",
+                "endBit": "37",
+                "description": "DCDC_temp_knot",
+                "desCH": "充电升压总成温度IGBT结"
+            },
+            {
+                "address": "181FF471",
+                "startBit": "20",
+                "endBit": "27",
+                "description": "DCDC_temp_L",
+                "desCH": "充电升压总成温度电感"
+            },
+            {
+                "address": "181FF471",
+                "startBit": "40",
+                "endBit": "47",
+                "description": "boostDC_Imax",
+                "desCH": "充电升压总成升降压模块最高可输出电流"
+            },
+            {
+                "address": "181FF471",
+                "startBit": "10",
+                "endBit": "17",
+                "description": "DCDC_temp_IGBT",
+                "desCH": "充电升压总成温度IGBT"
+            }
+        ]
+    },
+    "2552689750": {
+        "name": "充电机充电握手报文",
+        "signals": [
+            {
+                "address": "1826F456",
+                "startBit": "10",
+                "endBit": "37",
+                "description": "CHM",
+                "desCH": "充电机通信版本号"
+            }
+        ]
+    },
+    "2552690005": {
+        "name": "充电机充电握手报文2",
+        "signals": [
+            {
+                "address": "1826F555",
+                "startBit": "10",
+                "endBit": "37",
+                "description": "CHM",
+                "desCH": "充电机通信版本号"
+            }
+        ]
+    },
+    "2552714741": {
+        "name": "BMS握手2",
+        "signals": [
+            {
+                "address": "182755F5",
+                "startBit": "70",
+                "endBit": "77",
+                "description": "SOC_bulk2",
+                "desCH": "欧标bulkSOC2"
+            },
+            {
+                "address": "182755F5",
+                "startBit": "60",
+                "endBit": "67",
+                "description": "SOC_full2",
+                "desCH": "欧标满充SOC2"
+            },
+            {
+                "address": "182755F5",
+                "startBit": "50",
+                "endBit": "57",
+                "description": "SOC_realtime2",
+                "desCH": "当前SOC2"
+            },
+            {
+                "address": "182755F5",
+                "startBit": "30",
+                "endBit": "47",
+                "description": "maxAllowCurrent2",
+                "desCH": "最大允许充电电流2"
+            },
+            {
+                "address": "182755F5",
+                "startBit": "10",
+                "endBit": "27",
+                "description": "Voltage_Max",
+                "desCH": "最高允许充电总电压"
+            }
+        ]
+    },
+    "2552714996": {
+        "name": "BMS握手",
+        "signals": [
+            {
+                "address": "182756F4",
+                "startBit": "70",
+                "endBit": "77",
+                "description": "SOC_bulk",
+                "desCH": "欧标bulkSOC1"
+            },
+            {
+                "address": "182756F4",
+                "startBit": "60",
+                "endBit": "67",
+                "description": "SOC_full",
+                "desCH": "欧标满充SOC1"
+            },
+            {
+                "address": "182756F4",
+                "startBit": "50",
+                "endBit": "57",
+                "description": "SOC_realtime",
+                "desCH": "当前SOC1"
+            },
+            {
+                "address": "182756F4",
+                "startBit": "30",
+                "endBit": "47",
+                "description": "maxAllow_current",
+                "desCH": "最大允许充电电流"
+            },
+            {
+                "address": "182756F4",
+                "startBit": "10",
+                "endBit": "27",
+                "description": "Voltage_Max",
+                "desCH": "最高允许充电总电压"
+            }
+        ]
+    },
+    "2564436977": {
+        "name": "from7DF",
+        "signals": []
+    },
+    "2564452593": {
+        "name": "from705",
+        "signals": []
+    },
+    "2564452849": {
+        "name": "from700",
+        "signals": []
+    },
+    "2564485488": {
+        "name": "to70D",
+        "signals": []
+    },
+    "2564485489": {
+        "name": "to708",
+        "signals": []
+    },
+    "2565953013": {
+        "name": "充电停止标记",
+        "signals": [
+            {
+                "address": "18F155F5",
+                "startBit": "14",
+                "endBit": "15",
+                "description": "emergencyStop",
+                "desCH": "紧急终止充电2"
+            }
+        ]
+    },
+    "2565953268": {
+        "name": "充电停止标记",
+        "signals": [
+            {
+                "address": "18F156F4",
+                "startBit": "14",
+                "endBit": "15",
+                "description": "emergencyStop",
+                "desCH": "紧急终止充电"
+            }
+        ]
+    },
+    "2566124630": {
+        "name": "电锁报文",
+        "signals": [
+            {
+                "address": "18F3F456",
+                "startBit": "70",
+                "endBit": "87",
+                "description": "chgerMaxPower",
+                "desCH": "充电桩最大限制功率"
+            },
+            {
+                "address": "18F3F456",
+                "startBit": "50",
+                "endBit": "67",
+                "description": "chgerOutVotg_rt",
+                "desCH": "充电桩当前输出电压"
+            },
+            {
+                "address": "18F3F456",
+                "startBit": "40",
+                "endBit": "41",
+                "description": "chgMode",
+                "desCH": "充电模式反馈",
+                "valueDescriptions": [
+                    {
+                        "0": "未知",
+                        "1": "直流模式",
+                        "2": "交流模式"
+                    }
+                ]
+            },
+            {
+                "address": "18F3F456",
+                "startBit": "20",
+                "endBit": "21",
+                "description": "elock1_alert",
+                "desCH": "1#充电口电锁报警",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "闭锁失效",
+                        "2": "解锁失效",
+                        "3": "保留"
+                    }
+                ]
+            },
+            {
+                "address": "18F3F456",
+                "startBit": "10",
+                "endBit": "11",
+                "description": "elock1_state",
+                "desCH": "1#充电口电锁状态",
+                "valueDescriptions": [
+                    {
+                        "0": "闭锁（初始）",
+                        "1": "解锁",
+                        "2": "保留",
+                        "3": "保留"
+                    }
+                ]
+            }
+        ]
+    },
+    "2566124885": {
+        "name": "电锁报文2",
+        "signals": [
+            {
+                "address": "18F3F555",
+                "startBit": "70",
+                "endBit": "87",
+                "description": "chgerMaxPower2",
+                "desCH": "2#充电桩最大限制功率"
+            },
+            {
+                "address": "18F3F555",
+                "startBit": "50",
+                "endBit": "67",
+                "description": "chgerOutVotg_rt2",
+                "desCH": "2#充电桩当前输出电压"
+            },
+            {
+                "address": "18F3F555",
+                "startBit": "40",
+                "endBit": "41",
+                "description": "chgMode2",
+                "desCH": "2#充电模式反馈",
+                "valueDescriptions": [
+                    {
+                        "0": "未知",
+                        "1": "直流模式",
+                        "2": "交流模式"
+                    }
+                ]
+            },
+            {
+                "address": "18F3F555",
+                "startBit": "20",
+                "endBit": "21",
+                "description": "elock2_alert",
+                "desCH": "2#充电口电锁报警",
+                "valueDescriptions": [
+                    {
+                        "0": "正常",
+                        "1": "闭锁失效",
+                        "2": "解锁失效",
+                        "3": "保留"
+                    }
+                ]
+            },
+            {
+                "address": "18F3F555",
+                "startBit": "10",
+                "endBit": "11",
+                "description": "elock2_state",
+                "desCH": "2#充电口电锁状态",
+                "valueDescriptions": [
+                    {
+                        "0": "闭锁（初始）",
+                        "1": "解锁",
+                        "2": "保留",
+                        "3": "保留"
+                    }
+                ]
+            }
+        ]
+    },
+    "2566315764": {
+        "name": "日标BMS状态报文",
+        "signals": [
+            {
+                "address": "18F6DEF4",
+                "startBit": "30",
+                "endBit": "37",
+                "description": "dischgSOCmin",
+                "desCH": "最小允许放电SOC"
+            },
+            {
+                "address": "18F6DEF4",
+                "startBit": "20",
+                "endBit": "21",
+                "description": "boostDC_preChg",
+                "desCH": "充电升压总成预充状态",
+                "valueDescriptions": [
+                    {
+                        "0": "未预充",
+                        "1": "正在预充",
+                        "2": "预充完成",
+                        "3": "预充失败"
+                    }
+                ]
+            },
+            {
+                "address": "18F6DEF4",
+                "startBit": "16",
+                "endBit": "17",
+                "description": "contactor_ACchg",
+                "desCH": "交流充电接触器状态",
+                "valueDescriptions": [
+                    {
+                        "0": "断开",
+                        "1": "闭合"
+                    }
+                ]
+            },
+            {
+                "address": "18F6DEF4",
+                "startBit": "14",
+                "endBit": "15",
+                "description": "contactor_ACpre",
+                "desCH": "交流预充接触器状态",
+                "valueDescriptions": [
+                    {
+                        "0": "断开",
+                        "1": "闭合"
+                    }
+                ]
+            },
+            {
+                "address": "18F6DEF4",
+                "startBit": "12",
+                "endBit": "13",
+                "description": "BMSrequest",
+                "desCH": "充/放电 停止请求",
+                "valueDescriptions": [
+                    {
+                        "0": "无请求",
+                        "1": "充电停止请求",
+                        "2": "放电停止请求"
+                    }
+                ]
+            },
+            {
+                "address": "18F6DEF4",
+                "startBit": "10",
+                "endBit": "11",
+                "description": "contactor_DCchg",
+                "desCH": "直流充电接触器状态",
+                "valueDescriptions": [
+                    {
+                        "0": "断开",
+                        "1": "闭合"
+                    }
+                ]
+            }
+        ]
+    },
+    "2566853760": {
+        "name": "控制引导状态ControlPilotStatus",
+        "signals": [
+            {
+                "address": "18FF1480",
+                "startBit": "65",
+                "endBit": "67",
+                "description": "pantograph_CP",
+                "desCH": "充电模块状态（CP信号）",
+                "valueDescriptions": [
+                    {
+                        "0": "A：未连接（±1）",
+                        "1": "B1：连接，无PWM信号（8~10）",
+                        "2": "B2：连接，有PWM信号（8~10）",
+                        "3": "C：连接，能量传输（5~7）",
+                        "4": "状态D",
+                        "5": "状态E",
+                        "6": "状态F",
+                        "7": "SNA"
+                    }
+                ]
+            }
+        ]
+    },
+    "2566854528": {
+        "name": "接触器状态",
+        "signals": [
+            {
+                "address": "18FF1780",
+                "startBit": "14",
+                "endBit": "15",
+                "description": "chgSelectionAck",
+                "desCH": "充电节点确认",
+                "valueDescriptions": [
+                    {
+                        "0": "主要节点",
+                        "1": "第二节点"
+                    }
+                ]
+            },
+            {
+                "address": "18FF1780",
+                "startBit": "12",
+                "endBit": "13",
+                "description": "contactorRequest",
+                "desCH": "直流充电接触器控制",
+                "valueDescriptions": [
+                    {
+                        "0": "断开",
+                        "1": "吸合",
+                        "2": "强制断开"
+                    }
+                ]
+            },
+            {
+                "address": "18FF1780",
+                "startBit": "10",
+                "endBit": "11",
+                "description": "leakageCheck",
+                "desCH": "绝缘检测请求（IsolationMeasurementRequest）",
+                "valueDescriptions": [
+                    {
+                        "0": "关闭",
+                        "1": "启动"
+                    }
+                ]
+            }
+        ]
+    },
+    "2566857090": {
+        "name": "车辆充电信息",
+        "signals": [
+            {
+                "address": "18FF2182",
+                "startBit": "60",
+                "endBit": "61",
+                "description": "contactorStatus",
+                "desCH": "接触器状态",
+                "valueDescriptions": [
+                    {
+                        "0": "断开",
+                        "1": "吸合",
+                        "2": "强制断开"
+                    }
+                ]
+            },
+            {
+                "address": "18FF2182",
+                "startBit": "56",
+                "endBit": "57",
+                "description": "chgPermission",
+                "desCH": "充电许可",
+                "valueDescriptions": [
+                    {
+                        "0": "不允许",
+                        "1": "允许"
+                    }
+                ]
+            },
+            {
+                "address": "18FF2182",
+                "startBit": "54",
+                "endBit": "55",
+                "description": "elock_unlock",
+                "desCH": "电锁解锁PlugUnlockPermission",
+                "valueDescriptions": [
+                    {
+                        "0": "不允许",
+                        "1": "允许"
+                    }
+                ]
+            },
+            {
+                "address": "18FF2182",
+                "startBit": "52",
+                "endBit": "53",
+                "description": "elock_lock",
+                "desCH": "电锁闭锁PlugLockPermission",
+                "valueDescriptions": [
+                    {
+                        "0": "不允许",
+                        "1": "允许"
+                    }
+                ]
+            },
+            {
+                "address": "18FF2182",
+                "startBit": "50",
+                "endBit": "51",
+                "description": "leakageCheck",
+                "desCH": "绝缘检测状态IsolationMeasurementStatus",
+                "valueDescriptions": [
+                    {
+                        "0": "关闭",
+                        "1": "启动",
+                        "2": "故障"
+                    }
+                ]
+            },
+            {
+                "address": "18FF2182",
+                "startBit": "30",
+                "endBit": "47",
+                "description": "LinkVotg",
+                "desCH": "直流充电机连接电压"
+            },
+            {
+                "address": "18FF2182",
+                "startBit": "10",
+                "endBit": "27",
+                "description": "preChgVotg",
+                "desCH": "直流充电机预充电压"
+            },
+            {
+                "address": "18FF2182",
+                "startBit": "72",
+                "endBit": "73",
+                "description": "preChgState",
+                "desCH": "直流充电机预充状态"
+            },
+            {
+                "address": "18FF2182",
+                "startBit": "62",
+                "endBit": "63",
+                "description": "stopChgSwitch",
+                "desCH": "充电停止开关状态"
+            }
+        ]
+    },
+    "2566860930": {
+        "name": "车辆状态VCVCCU_V2G_VehicleStatus",
+        "signals": [
+            {
+                "address": "18FF3082",
+                "startBit": "70",
+                "endBit": "77",
+                "description": "V2G_EVRESSSOC",
+                "desCH": "当前SOC"
+            },
+            {
+                "address": "18FF3082",
+                "startBit": "60",
+                "endBit": "67",
+                "description": "V2G_FullSOC",
+                "desCH": "满充SOC"
+            },
+            {
+                "address": "18FF3082",
+                "startBit": "50",
+                "endBit": "57",
+                "description": "V2G_BulkSOC",
+                "desCH": "轮充SOC"
+            },
+            {
+                "address": "18FF3082",
+                "startBit": "42",
+                "endBit": "45",
+                "description": "TransferMode",
+                "desCH": "能量传输模式StateM_EnergyTransferMode",
+                "valueDescriptions": [
+                    {
+                        "0": "AC_single_phase_core",
+                        "1": "AC_three_phase_core",
+                        "2": "DC_core",
+                        "3": "DC_extended",
+                        "4": "DC_combo_core",
+                        "5": "DC_unique"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3082",
+                "startBit": "40",
+                "endBit": "41",
+                "description": "ParameterFlag",
+                "desCH": "车辆供电参数标记EVPowerDeliveryParameterFlag",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3082",
+                "startBit": "36",
+                "endBit": "37",
+                "description": "EVRESSCondtionF",
+                "desCH": "电池冷却标记EVRESSCondtioningFlag",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3082",
+                "startBit": "34",
+                "endBit": "35",
+                "description": "EVRESSCondtionOn",
+                "desCH": "电池冷却开启EVRESSCondtioning",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3082",
+                "startBit": "32",
+                "endBit": "33",
+                "description": "EVReady",
+                "desCH": "车辆准备状态EVReady",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3082",
+                "startBit": "30",
+                "endBit": "31",
+                "description": "CabinConditionF",
+                "desCH": "乘客舱空调标记ECCabinConditioningFlag",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3082",
+                "startBit": "26",
+                "endBit": "27",
+                "description": "CabinConditionOn",
+                "desCH": "乘客舱空调开启EVCabinConditioning",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3082",
+                "startBit": "24",
+                "endBit": "25",
+                "description": "ChargingComplete",
+                "desCH": "充电完成标记ChargingComplete",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3082",
+                "startBit": "22",
+                "endBit": "23",
+                "description": "FullSOCFlag",
+                "desCH": "满充SOC标记FullSOCFlag",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3082",
+                "startBit": "20",
+                "endBit": "21",
+                "description": "BulkSOCFlag",
+                "desCH": "轮充SOC标记",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3082",
+                "startBit": "16",
+                "endBit": "17",
+                "description": "BulkChgCompleteF",
+                "desCH": "轮充完成标记BulkChargingCompleteFlag",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3082",
+                "startBit": "14",
+                "endBit": "15",
+                "description": "BulkChgComplete",
+                "desCH": "充电是否完成",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3082",
+                "startBit": "10",
+                "endBit": "13",
+                "description": "errorCode",
+                "desCH": "车辆故障码",
+                "valueDescriptions": [
+                    {
+                        "0": "无故障",
+                        "1": "温度异常",
+                        "2": "车辆挡位异常",
+                        "3": "电锁闭锁失效",
+                        "4": "动力电池故障",
+                        "5": "充电电流不一致",
+                        "6": "充电电压过高",
+                        "10": "充电系统不兼容"
+                    }
+                ]
+            }
+        ]
+    },
+    "2566861698": {
+        "name": "BMS目标电压VCVCCU_V2G_EVTargetVoltage",
+        "signals": [
+            {
+                "address": "18FF3382",
+                "startBit": "50",
+                "endBit": "53",
+                "description": "Voltage_Unit",
+                "desCH": "电压单位EVTargetVoltage_Unit",
+                "valueDescriptions": [
+                    {
+                        "0": "H",
+                        "1": "M",
+                        "2": "S",
+                        "3": "A",
+                        "4": "AH",
+                        "5": "V",
+                        "6": "VA",
+                        "7": "W",
+                        "8": "WS",
+                        "9": "WH"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3382",
+                "startBit": "40",
+                "endBit": "47",
+                "description": "UnitFlag",
+                "desCH": "目标电压单位标记EVTargetVoltage_UnitFlag",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3382",
+                "startBit": "30",
+                "endBit": "37",
+                "description": "Multiplier",
+                "desCH": "目标电压倍率EVTargetVoltageMultiplier"
+            },
+            {
+                "address": "18FF3382",
+                "startBit": "10",
+                "endBit": "27",
+                "description": "TargetVoltage",
+                "desCH": "车辆目标电压"
+            }
+        ]
+    },
+    "2566861954": {
+        "name": "BMS目标电流VCVCCU_V2G_EVTargetCurrent",
+        "signals": [
+            {
+                "address": "18FF3482",
+                "startBit": "50",
+                "endBit": "53",
+                "description": "Current_Unit",
+                "desCH": "电流单位EVTargetCurrent_Unit",
+                "valueDescriptions": [
+                    {
+                        "0": "H",
+                        "1": "M",
+                        "2": "S",
+                        "3": "A",
+                        "4": "AH",
+                        "5": "V",
+                        "6": "VA",
+                        "7": "W",
+                        "8": "WS",
+                        "9": "WH"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3482",
+                "startBit": "40",
+                "endBit": "47",
+                "description": "UnitFlag",
+                "desCH": "目标电流单位标记EVTargetCurrent_UnitFlag",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3482",
+                "startBit": "30",
+                "endBit": "37",
+                "description": "Multiplier",
+                "desCH": "目标电流倍率EVTargetCurrent_Multiplier"
+            },
+            {
+                "address": "18FF3482",
+                "startBit": "10",
+                "endBit": "27",
+                "description": "TargetCurrent",
+                "desCH": "车辆目标电流EVTargetCurrent_Value"
+            }
+        ]
+    },
+    "2566862210": {
+        "name": "BMS整车容量VCVCCU_V2G_EVEnergyCapacity",
+        "signals": [
+            {
+                "address": "18FF3582",
+                "startBit": "50",
+                "endBit": "57",
+                "description": "UnitFlag",
+                "desCH": "容量单位标记EVEnergyCapacity_UnitFlag",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3582",
+                "startBit": "30",
+                "endBit": "47",
+                "description": "Capacity",
+                "desCH": "整车容量EVEnergyCapacity_Value"
+            },
+            {
+                "address": "18FF3582",
+                "startBit": "20",
+                "endBit": "27",
+                "description": "Multiplier",
+                "desCH": "容量倍率EVEnergyCapacity_Multiplier"
+            },
+            {
+                "address": "18FF3582",
+                "startBit": "14",
+                "endBit": "15",
+                "description": "CapacityFlag",
+                "desCH": "容量标记EVEnergyCapacity_Flag",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3582",
+                "startBit": "10",
+                "endBit": "13",
+                "description": "Capacity_Unit",
+                "desCH": "容量单位EVEnergyCapacity_Unit",
+                "valueDescriptions": [
+                    {
+                        "0": "H",
+                        "1": "M",
+                        "2": "S",
+                        "3": "A",
+                        "4": "AH",
+                        "5": "V",
+                        "6": "VA",
+                        "7": "W",
+                        "8": "WS",
+                        "9": "WH"
+                    }
+                ]
+            }
+        ]
+    },
+    "2566862722": {
+        "name": "BMS最大允许电流VCVCCU_V2G_EVMaximumCurrentLimit",
+        "signals": [
+            {
+                "address": "18FF3782",
+                "startBit": "50",
+                "endBit": "57",
+                "description": "UnitFlag",
+                "desCH": "最大电流单位标记EVMaximumCurrentLimit _UnitFlag",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3782",
+                "startBit": "30",
+                "endBit": "47",
+                "description": "MaxCurrent",
+                "desCH": "最大允许充电电流EVMaximumCurrentLimit _Value"
+            },
+            {
+                "address": "18FF3782",
+                "startBit": "20",
+                "endBit": "27",
+                "description": "Multiplier",
+                "desCH": "最大电流倍率EVMaximumCurrentLimit _Multiplier"
+            },
+            {
+                "address": "18FF3782",
+                "startBit": "14",
+                "endBit": "15",
+                "description": "CurrentLimitFlag",
+                "desCH": "最大允许电流标记EVMaximumCurrentLimit _Flag",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3782",
+                "startBit": "10",
+                "endBit": "13",
+                "description": "Current_Unit",
+                "desCH": "电流单位EVMaximumCurrentLimit _Unit",
+                "valueDescriptions": [
+                    {
+                        "0": "H",
+                        "1": "M",
+                        "2": "S",
+                        "3": "A",
+                        "4": "AH",
+                        "5": "V",
+                        "6": "VA",
+                        "7": "W",
+                        "8": "WS",
+                        "9": "WH"
+                    }
+                ]
+            }
+        ]
+    },
+    "2566862978": {
+        "name": "BMS最大允许功率VCVCCU_V2G_EVMaximumPowerLimit",
+        "signals": [
+            {
+                "address": "18FF3882",
+                "startBit": "50",
+                "endBit": "57",
+                "description": "UnitFlag",
+                "desCH": "最大功率单位标记EVMaximumPowerLimit_UnitFlag",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3882",
+                "startBit": "30",
+                "endBit": "47",
+                "description": "MaxPower",
+                "desCH": "最大允许充电功率EVMaximumPowerLimit_Value"
+            },
+            {
+                "address": "18FF3882",
+                "startBit": "20",
+                "endBit": "27",
+                "description": "Multiplier",
+                "desCH": "最大功率倍率EVMaximumPowerLimit_Multiplier"
+            },
+            {
+                "address": "18FF3882",
+                "startBit": "14",
+                "endBit": "15",
+                "description": "PowerLimitFlag",
+                "desCH": "最大允许功率标记EVMaximumPowerLimit_Flag",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3882",
+                "startBit": "10",
+                "endBit": "13",
+                "description": "Power_Unit",
+                "desCH": "功率单位EVMaximumPowerLimit_Unit",
+                "valueDescriptions": [
+                    {
+                        "0": "H",
+                        "1": "M",
+                        "2": "S",
+                        "3": "A",
+                        "4": "AH",
+                        "5": "V",
+                        "6": "VA",
+                        "7": "W",
+                        "8": "WS",
+                        "9": "WH"
+                    }
+                ]
+            }
+        ]
+    },
+    "2566863234": {
+        "name": "BMS最大允许电压VCVCCU_V2G_EVMaximumVoltageLimit",
+        "signals": [
+            {
+                "address": "18FF3982",
+                "startBit": "50",
+                "endBit": "57",
+                "description": "UnitFlag",
+                "desCH": "最大电压单位标记EVMaximumVoltageLimit_UnitFlag",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3982",
+                "startBit": "30",
+                "endBit": "47",
+                "description": "MaxVoltage",
+                "desCH": "最大允许充电电压EVMaximumVoltageLimit_Value"
+            },
+            {
+                "address": "18FF3982",
+                "startBit": "20",
+                "endBit": "27",
+                "description": "Multiplier",
+                "desCH": "最大电压倍率EVMaximumVoltageLimit_Multiplier"
+            },
+            {
+                "address": "18FF3982",
+                "startBit": "14",
+                "endBit": "15",
+                "description": "VoltageLimitFlag",
+                "desCH": "最大允许电压标记EVMaximumVoltageLimit_Flag",
+                "valueDescriptions": [
+                    {
+                        "0": "未标记",
+                        "1": "标记"
+                    }
+                ]
+            },
+            {
+                "address": "18FF3982",
+                "startBit": "10",
+                "endBit": "13",
+                "description": "Voltage_Unit",
+                "desCH": "电压单位EVMaximumVoltageLimit_Unit",
+                "valueDescriptions": [
+                    {
+                        "0": "H",
+                        "1": "M",
+                        "2": "S",
+                        "3": "A",
+                        "4": "AH",
+                        "5": "V",
+                        "6": "VA",
+                        "7": "W",
+                        "8": "WS",
+                        "9": "WH"
+                    }
+                ]
+            }
+        ]
+    },
+    "2566869120": {
+        "name": "充电桩状态",
+        "signals": [
+            {
+                "address": "18FF5080",
+                "startBit": "12",
+                "endBit": "14",
+                "description": "IsolationStatus",
+                "desCH": "绝缘状态"
+            },
+            {
+                "address": "18FF5080",
+                "startBit": "40",
+                "endBit": "44",
+                "description": "responseCode",
+                "desCH": "回复码",
+                "valueDescriptions": [
+                    {
+                        "0": "OK",
+                        "1": "OK，新流程已确认",
+                        "2": "OK，旧流程已加入",
+                        "3": "证书即将到期",
+                        "4": "失败",
+                        "5": "程序错误",
+                        "6": "服务器无效",
+                        "7": "未知流程",
+                        "8": "服务器选择无效",
+                        "9": "支付选择无效",
+                        "10": "证书到期",
+                        "11": "签名错误",
+                        "12": "无可用证书",
+                        "13": "证书链异常",
+                        "14": "CHALLENGE_INVALD",
+                        "15": "协议取消",
+                        "16": "充电参数异常",
+                        "17": "能量不能传输",
+                        "18": "计费选择不可用",
+                        "19": "充电信息无效",
+                        "20": "计量签名异常",
+                        "21": "未选择充电服务器",
+                        "22": "错误的能量传输类型",
+                        "24": "接触器故障",
+                        "25": "此证书不允许在此桩充电",
+                        "26": "证书撤销"
+                    }
+                ]
+            }
+        ]
+    },
+    "2566872192": {
+        "name": "V2G核心报文",
+        "signals": [
+            {
+                "address": "18FF5C80",
+                "startBit": "20",
+                "endBit": "27",
+                "description": "MsgStatus",
+                "desCH": "报文状态",
+                "valueDescriptions": [
+                    {
+                        "1": "SLAC OK",
+                        "9": "SessionSetup OK",
+                        "37": "ChargingStatus OK",
+                        "38": "ChargingStatus NG",
+                        "39": "CableCheck OK"
+                    }
+                ]
+            }
+        ]
+    },
+    "2566872448": {
+        "name": "充电桩流程状态",
+        "signals": [
+            {
+                "address": "18FF5D80",
+                "startBit": "40",
+                "endBit": "47",
+                "description": "StateStatus",
+                "desCH": "状态机状态（StateM_StateMachineStatus）",
+                "valueDescriptions": [
+                    {
+                        "0": "无",
+                        "1": "初始化",
+                        "2": "SLAC",
+                        "3": "等待分配IP",
+                        "4": "SECC（桩端）发现协议",
+                        "5": "TLconection",
+                        "6": "支持的应用程序协议",
+                        "7": "流程启动",
+                        "8": "发现服务器",
+                        "9": "服务器信息",
+                        "10": "支付模式选择",
+                        "11": "认证设置",
+                        "12": "认证更新",
+                        "13": "支付信息",
+                        "14": "批准",
+                        "15": "发现充电参数",
+                        "16": "线束检测（cableCheck）",
+                        "17": "预充",
+                        "18": "能量传输",
+                        "19": "充电状态",
+                        "20": "电流需求",
+                        "21": "计量值",
+                        "22": "烧结检测",
+                        "23": "流程中止",
+                        "24": "停止交互",
+                        "25": "完成",
+                        "26": "等待重试",
+                        "27": "故障退出",
+                        "28": "精确定位开始",
+                        "29": "精确定位中",
+                        "30": "初始校准确认",
+                        "32": "功率需求"
+                    }
+                ]
+            }
+        ]
+    },
+    "2566875264": {
+        "name": "下降式顶部充电状态报文",
+        "signals": [
+            {
+                "address": "18FF6880",
+                "startBit": "20",
+                "endBit": "22",
+                "description": "CtrlPilotSelReq",
+                "desCH": "下降式顶部充电需求"
+            },
+            {
+                "address": "18FF6880",
+                "startBit": "25",
+                "endBit": "26",
+                "description": "vehicleMoveState",
+                "desCH": "车辆移动状态报文",
+                "valueDescriptions": [
+                    {
+                        "0": "车辆可移动",
+                        "1": "车辆不可移动",
+                        "2": "车辆不可移动故障"
+                    }
+                ]
+            },
+            {
+                "address": "18FF6880",
+                "startBit": "23",
+                "endBit": "24",
+                "description": "WiFiState",
+                "desCH": "WIFI连接状态",
+                "valueDescriptions": [
+                    {
+                        "0": "未连接",
+                        "1": "已连接",
+                        "2": "已连接但信号弱"
+                    }
+                ]
+            }
+        ]
+    },
+    "2566875522": {
+        "name": "BMS下降式顶部充电控制报文",
+        "signals": [
+            {
+                "address": "18FF6982",
+                "startBit": "14",
+                "endBit": "15",
+                "description": "WiFiSearchAllow",
+                "desCH": "允许WIFI搜索”报文"
+            },
+            {
+                "address": "18FF6982",
+                "startBit": "12",
+                "endBit": "13",
+                "description": "pantoChgModeReq",
+                "desCH": "顶部充电状态需求"
+            },
+            {
+                "address": "18FF6982",
+                "startBit": "10",
+                "endBit": "11",
+                "description": "chgType",
+                "desCH": "充电方式"
+            }
+        ]
+    },
+    "2621305942": {
+        "name": "1#EVCC故障代码",
+        "signals": [
+            {
+                "address": "1C3DF456",
+                "startBit": "80",
+                "endBit": "87",
+                "description": "EVCCcode1",
+                "desCH": "EVCC报错代码1",
+                "valueDescriptions": [
+                    {
+                        "0": "无故障",
+                        "44": "SLAC衰减特征指示RX超时",
+                        "65": "SDP发送错误",
+                        "178": "BHM报文接收超时",
+                        "194": "电锁锁定失败错误",
+                        "195": "电锁解锁失败错误"
+                    }
+                ]
+            }
+        ]
+    },
+    "2621306197": {
+        "name": "2#EVCC故障代码",
+        "signals": [
+            {
+                "address": "1C3DF555",
+                "startBit": "80",
+                "endBit": "87",
+                "description": "EVCCcode2",
+                "desCH": "EVCC报错代码2",
+                "valueDescriptions": [
+                    {
+                        "0": "无故障",
+                        "44": "SLAC衰减特征指示RX超时",
+                        "65": "SDP发送错误",
+                        "178": "BHM报文接收超时",
+                        "194": "电锁锁定失败错误",
+                        "195": "电锁解锁失败错误"
+                    }
+                ]
+            }
+        ]
+    },
+    "2632668661": {
+        "name": "电池充电总状态/BMS辨识报文/BMS充电参数报文2",
+        "signals": [
+            {
+                "address": "1CEB55F5",
+                "startBit": "40",
+                "endBit": "57",
+                "description": "chargeCurrent2",
+                "desCH": "充电电流测量值2"
+            },
+            {
+                "address": "1CEB55F5",
+                "startBit": "20",
+                "endBit": "37",
+                "description": "chargeVoltage2",
+                "desCH": "充电电压测量值2"
+            },
+            {
+                "address": "1CEB55F5",
+                "startBit": "10",
+                "endBit": "17",
+                "description": "frameNumber2",
+                "desCH": "帧序号2"
+            },
+            {
+                "address": "1CEB55F5",
+                "startBit": "60",
+                "endBit": "73",
+                "description": "cellVmax2",
+                "desCH": "单节最高电压2"
+            },
+            {
+                "address": "1CEB55F5",
+                "startBit": "80",
+                "endBit": "87",
+                "description": "SOC2",
+                "desCH": "SOC2"
+            }
+        ]
+    },
+    "2632668916": {
+        "name": "电池充电总状态/BMS辨识报文/BMS充电参数报文",
+        "signals": [
+            {
+                "address": "1CEB56F4",
+                "startBit": "40",
+                "endBit": "57",
+                "description": "chargeCurrent",
+                "desCH": "充电电流测量值"
+            },
+            {
+                "address": "1CEB56F4",
+                "startBit": "20",
+                "endBit": "37",
+                "description": "chargeVoltage",
+                "desCH": "充电电压测量值"
+            },
+            {
+                "address": "1CEB56F4",
+                "startBit": "10",
+                "endBit": "17",
+                "description": "frameNumber",
+                "desCH": "帧序号"
+            },
+            {
+                "address": "1CEB56F4",
+                "startBit": "60",
+                "endBit": "73",
+                "description": "cellVmax",
+                "desCH": "单节最高电压"
+            },
+            {
+                "address": "1CEB56F4",
+                "startBit": "80",
+                "endBit": "87",
+                "description": "SOC",
+                "desCH": "SOC"
+            }
+        ]
+    }
+}

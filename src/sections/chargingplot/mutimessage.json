@@ -1,0 +1,264 @@
+{
+
+    "31": {
+        "name": "BMS和车辆辨识BRM",
+        "signals": [
+            {
+                "address": "31",
+                "startMes":"1",
+                "startBit": "20",
+                "endMes":"1",
+                "endBit": "47",
+                "gain":"1",
+                "offset":"0",
+                "description": "BMS communication protocol version number",
+                "desCH": "BMS通讯协议版本号",
+                "signalfcn":"version"
+            },
+            {
+                "address": "31",
+                "startMes":"1",
+                "startBit": "60",
+                "endMes":"1",
+                "endBit": "77",
+                "gain":"0.1",
+                "offset":"0",
+                "description": "Rated Energy",
+                "desCH": "整车额定容量",
+                "signalfcn":"select"
+            },
+            {
+                "address": "31",
+                "startMes":"1",
+                "startBit": "80",
+                "endMes":"2",
+                "endBit": "27",
+                "gain":"0.1",
+                "offset":"0",
+                "description": "Rated Voltage",
+                "desCH": "整车额定总电压",
+                "signalfcn":"select"
+            },
+            {
+                "address": "31",
+                "startMes":"4",
+                "startBit": "50",
+                "endMes":"6",
+                "endBit": "77",
+                "gain":"1",
+                "offset":"0",
+                "description": "VIN",
+                "desCH": "VIN",
+                "signalfcn":"vin"
+            },
+            {
+                "address": "31",
+                "startMes":"7",
+                "startBit": "20",
+                "endMes":"7",
+                "endBit": "27",
+                "gain":"1",
+                "offset":"0",
+                "description": "BMS day",
+                "desCH": "BMS 版本日",
+                "signalfcn":"select"
+            },
+            {
+                "address": "31",
+                "startMes":"7",
+                "startBit": "30",
+                "endMes":"7",
+                "endBit": "37",
+                "gain":"1",
+                "offset":"0",
+                "description": "BMS month",
+                "desCH": "BMS 版本月",
+                "signalfcn":"select"
+            }
+            ,
+            {
+                "address": "31",
+                "startMes":"7",
+                "startBit": "40",
+                "endMes":"7",
+                "endBit": "57",
+                "gain":"1",
+                "offset":"0",
+                "description": "BMS year",
+                "desCH": "BMS 版本年",
+                "signalfcn":"select"
+            }
+        ]
+    },
+
+
+    "0d": {
+        "name": "动力电池参数BCP",
+        "signals": [
+            {
+                "address": "0d",
+                "startMes":"1",
+                "startBit": "20",
+                "endMes":"1",
+                "endBit": "37",
+                "gain":"0.01",
+                "offset":"0",
+                "description": "Battery Cell Max Voltage ",
+                "desCH": "最高允许充电单体电压",
+                "signalfcn":"select"
+            },
+            {
+                "address": "0d",
+                "startMes":"1",
+                "startBit": "40",
+                "endMes":"1",
+                "endBit": "57",
+                "gain":"0.1",
+                "offset":"-400",
+                "description": "Battery Max Current ",
+                "desCH": "最高允许充电电流",
+                "signalfcn":"select"
+            },
+            {
+                "address": "0d",
+                "startMes":"1",
+                "startBit": "60",
+                "endMes":"1",
+                "endBit": "77",
+                "gain":"0.1",
+                "offset":"0",
+                "description": "Battery Rated Energy ",
+                "desCH": "电池标称总能量",
+                "signalfcn":"select"
+            },
+            {
+                "address": "0d",
+                "startMes":"1",
+                "startBit": "80",
+                "endMes":"2",
+                "endBit": "27",
+                "gain":"0.1",
+                "offset":"0",
+                "description": "Battery Max Voltage Allowed ",
+                "desCH": "最高允许充电总电压",
+                "signalfcn":"select"
+            },
+            {
+                "address": "0d",
+                "startMes":"2",
+                "startBit": "30",
+                "endMes":"2",
+                "endBit": "37",
+                "gain":"1",
+                "offset":"-50",
+                "description": "Battery Max Temperature ",
+                "desCH": "最高允许温度",
+                "signalfcn":"select"
+            },
+            {
+                "address": "0d",
+                "startMes":"2",
+                "startBit": "40",
+                "endMes":"2",
+                "endBit": "57",
+                "gain":"0.1",
+                "offset":"0",
+                "description": "Battery SOC ",
+                "desCH": "整车SOC",
+                "signalfcn":"select"
+            },
+            {
+                "address": "0d",
+                "startMes":"2",
+                "startBit": "60",
+                "endMes":"2",
+                "endBit": "77",
+                "gain":"0.1",
+                "offset":"0",
+                "description": "Current Voltage ",
+                "desCH": "当前总电压",
+                "signalfcn":"select"
+            }
+            
+        ]
+    },
+
+    "09": {
+        "name": "电池充电总状态BCS",
+        "signals": [
+            {
+                "address": "09",
+                "startMes":"1",
+                "startBit": "20",
+                "endMes":"1",
+                "endBit": "37",
+                "gain":"0.1",
+                "offset":"0",
+                "description": "Measured Charging Voltage",
+                "desCH": "充电电压测量值",
+                "signalfcn":"select"
+            },
+            {
+                "address": "09",
+                "startMes":"1",
+                "startBit": "40",
+                "endMes":"1",
+                "endBit": "57",
+                "gain":"0.1",
+                "offset":"-400",
+                "description": "Measured Charging Current",
+                "desCH": "充电电流测量值",
+                "signalfcn":"select"
+            },
+            {
+                "address": "09",
+                "startMes":"1",
+                "startBit": "60",
+                "endMes":"1",
+                "endBit": "73",
+                "gain":"0.01",
+                "offset":"0",
+                "description": "Highest Cell Voltage",
+                "desCH": "最高单体电压",
+                "signalfcn":"select"
+            },
+            {
+                "address": "09",
+                "startMes":"1",
+                "startBit": "74",
+                "endMes":"1",
+                "endBit": "77",
+                "gain":"1",
+                "offset":"0",
+                "description": "Highest Cell No.",
+                "desCH": "最高单体电压所在组号",
+                "signalfcn":"select"
+            },
+            {
+                "address": "09",
+                "startMes":"1",
+                "startBit": "80",
+                "endMes":"1",
+                "endBit": "87",
+                "gain":"1",
+                "offset":"0",
+                "description": "SOC",
+                "desCH": "SOC",
+                "signalfcn":"select"
+            },
+            {
+                "address": "09",
+                "startMes":"2",
+                "startBit": "20",
+                "endMes":"2",
+                "endBit": "37",
+                "gain":"1",
+                "offset":"0",
+                "description": "Remin Time (Min)",
+                "desCH": "剩余时间（分钟）",
+                "signalfcn":"select"
+            }
+        ]
+    }
+
+}
