@@ -25,9 +25,7 @@ export default function Router() {
       ),
       children: [
         { element: <IndexPage />, index: true },
-        { path: 'user', element: <UserPage /> },
-        { path: 'products', element: <ProductsPage /> },
-        { path: 'blog', element: <BlogPage /> },
+        { path: 'products', element: <ChargingPlot /> },
         { path: 'plot', element: <ChargingPlot /> },
       ],
     },
@@ -41,7 +39,7 @@ export default function Router() {
     },
     {
       path: '*',
-      element: <Navigate to="/404" replace />,
+      element: <Navigate to="/products" replace />,
     },
   ]);
 

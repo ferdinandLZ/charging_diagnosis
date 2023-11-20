@@ -6,7 +6,7 @@ import checker from 'vite-plugin-checker';
 // ----------------------------------------------------------------------
 
 export default defineConfig({
-  base: '/charging_diagnosis/',
+  base: './',
   plugins: [
     react(),
     checker({
