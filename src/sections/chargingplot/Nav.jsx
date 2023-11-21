@@ -1,20 +1,16 @@
+import React from 'react';
 import PropTypes from 'prop-types';
-
-import React, { useState,  } from 'react';
 
 
 // import Dropdown from 'react-chart-editor/lib/components/widgets/Dropdown';
 // import FormControl from 'react-bootstrap/FormControl';
 
+// import { styled } from '@mui/material/styles';
 // import Button from '@mui/material/Button';
 import TextField from "@mui/material/TextField";
-import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
 // import FileUploadOutlined from "@mui/icons-material/FileUploadOutlined";
 
-const Input = styled('input')({
-  display: 'none',
-});
 
 
 
@@ -37,21 +33,21 @@ const Nav = ({ passvar, passtype}) => {
 
     passvar(taltaldata.slice(1));
     // console.log(taltaldata)
-    let cellsAddr = taltaldata.filter((thing, index, self) =>
-      index === self.findIndex((t) => (
-        t[3] === thing[3]
-      ))
-    )
-    cellsAddr = cellsAddr.slice(1)
-    let cellsAddrarry = cellsAddr.map(line => line[3])
-    cellsAddrarry = cellsAddrarry.filter(it => it);
+    // const cellsAddr = taltaldata.filter((thing, index, self) =>
+    //   index === self.findIndex((t) => (
+    //     t[3] === thing[3]
+    //   ))
+    // )
+    // cellsAddr = cellsAddr.slice(1)
+    // let cellsAddrarry = cellsAddr.map(line => line[3])
+    // cellsAddrarry = cellsAddrarry.filter(it => it);
   
   }
   // path asc
   const handleFileasc = (e) => {
 
     const content = e.target.result;
-    const files = e.target;
+    // const files = e.target;
     // console.log(files)
 
     const taltaldata = content.split('\n').map( (el) =>  el.split(/\s+/) );
@@ -59,17 +55,17 @@ const Nav = ({ passvar, passtype}) => {
 
     passvar(taltaldata.slice(2));
     // console.log(taltaldata);
-    let cellsAddr = taltaldata.filter((thing, index, self) =>
-      index === self.findIndex((t) => (
-        t[2] === thing[2]
-      ))
-    )
+    // const cellsAddr = taltaldata.filter((thing, index, self) =>
+    //   index === self.findIndex((t) => (
+    //     t[2] === thing[2]
+    //   ))
+    // )
     // filter the duplicated adress [2] is the colom number of the total array.
 
-    cellsAddr = cellsAddr.slice(2)
-    // console.log("celladrr:",cellsAddr);
-    let cellsAddrarry = cellsAddr.map(line => line[2])// Can adress
-    cellsAddrarry = cellsAddrarry.filter(it => it);
+    // cellsAddr = cellsAddr.slice(2)
+    // // console.log("celladrr:",cellsAddr);
+    // let cellsAddrarry = cellsAddr.map(line => line[2])// Can adress
+    // cellsAddrarry = cellsAddrarry.filter(it => it);
 
   }
   const handleChangeFile = (file) => {

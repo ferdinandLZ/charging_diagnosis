@@ -22,22 +22,22 @@ function selectmultimessagedata(cell, state, type) {
     let allmessdata = [];
 
     let timecol = 2;
-    let adrcol = 3;
+    // let adrcol = 3;
     let dlccol = 6;
     switch (type) {
         case 'txt':
             timecol = 2;
-            adrcol = 3;
+            // adrcol = 3;
             dlccol = 6;
             break;
         case 'asc':
             timecol = 0;
-            adrcol = 2;
+            // adrcol = 2;
             dlccol = 5;
             break;
         default:
             timecol = 0;
-            adrcol = 2;
+            // adrcol = 2;
             dlccol = 5;
     }
     console.log(cell[state.address]);

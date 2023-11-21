@@ -1,7 +1,7 @@
+import React from 'react';
 import PropTypes from 'prop-types';
-import React, { useState } from 'react';
 
-import { TableContainer, Table, TableHead, TableRow, TableCell, TableBody, Button, Paper } from '@mui/material';
+import { Table, Paper, Button, TableRow, TableHead, TableCell, TableBody, TableContainer } from '@mui/material';
 
 function DictionaryDisplay({ selectdic, chargingStepState, toggleCategory,passselectedsignal}) {
 

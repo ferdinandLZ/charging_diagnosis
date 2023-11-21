@@ -1,10 +1,10 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
+
 import Box from '@mui/material/Box';
-import Stepper from '@mui/material/Stepper';
 import Step from '@mui/material/Step';
+import Stepper from '@mui/material/Stepper';
 import StepLabel from '@mui/material/StepLabel';
-import Typography from '@mui/material/Typography';
 
 function ChargingState({chargingstate}) {
 

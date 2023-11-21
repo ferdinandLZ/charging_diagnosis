@@ -10,16 +10,16 @@ import Typography from '@mui/material/Typography';
 
 import Nav from '../Nav';
 import canMessage from '../vector.json';
-import multicandic from '../mutimessage.json';
-import ChargingState from '../ChargingState';
 import CheckboxList from '../Checkboxlist';
+import ChargingState from '../ChargingState';
+import multicandic from '../mutimessage.json';
 import SelectCellsData from '../SelectCellsData';
 import SimpleLineChart from '../SimpleLineChart';
 import DictionaryDisplay from '../DictionaryDisplay';
-import selectmultimessagedata from '../Selectmultimessagedata';
 import AppWebsiteVisits from '../app-website-visits';
 import AppCurrentVisits from '../app-current-visits';
 import calculateStatistics from '../calculateStatistics';
+import selectmultimessagedata from '../Selectmultimessagedata';
 
 
 function Chargingplot() {
