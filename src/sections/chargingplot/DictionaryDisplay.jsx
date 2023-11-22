@@ -8,7 +8,7 @@ function DictionaryDisplay({ selectdic, chargingStepState, toggleCategory,passse
 
   const handleCellClick = (data) => {
     passselectedsignal(data);
-    console.log(data);
+    // console.log(data);
   };
 
   return (

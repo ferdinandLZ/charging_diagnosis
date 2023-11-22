@@ -89,18 +89,18 @@ const Nav = ({ passvar, passtype}) => {
       case 'txt':
       case 'TXT':
         fileData.onloadend = handleFile;
-        console.log("go to the txt branch")
+        // console.log("go to the txt branch")
 
         break;
       case 'ASC':
       case 'asc':
         fileData.onloadend = handleFileasc;
-        console.log("go to the asc branch")
+        // console.log("go to the asc branch")
 
         break;
       default: 
         fileData.onloadend = handleFileasc;
-        console.log("go to the asc branch")
+        // console.log("go to the asc branch")
      
   }
   }

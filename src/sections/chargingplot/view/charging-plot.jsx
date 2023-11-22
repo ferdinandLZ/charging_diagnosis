@@ -58,8 +58,8 @@ function Chargingplot() {
     // console.log(Var)
     const multicelltmp = extractDataGroups(Var)
     setMultiCells(multicelltmp)
-    console.log(multicelltmp)
-    console.log(multicandic['31'].signals[3]);
+    // console.log(multicelltmp)
+    // console.log(multicandic['31'].signals[3]);
 
     vdata = selectmultimessagedata(multicelltmp, multicandic['09'].signals[0], 'asc')
     setvoltagedata(vdata);
@@ -387,7 +387,7 @@ function Chargingplot() {
         }
       })
     }
-    console.log(stateadd)
+    // console.log(stateadd)
     // stateadd = ['100955F5', '100956F4', '1356','100AF456', '100AF555', '1801F456', '1801F555', '1807F456', '1808F456', '1826F456', '1826F555', '182755F5', '182756F4'];
     stateadd.map(adr => {
       statesignal.address = adr;
@@ -402,7 +402,7 @@ function Chargingplot() {
   
     setStateS(statelist)
     // console.log(resaultlist)
-    console.log(statelist)
+    // console.log(statelist)
     setIsDataLoaded(true);
 
     const selectedData = {};
@@ -414,7 +414,7 @@ function Chargingplot() {
     }
     setselectsignaldefault(selectedData);
     setselectsignalbylist(selectedData);
-    console.log(resaultlist);
+    // console.log(resaultlist);
     //  console.log(selectsignalbylist);
 
 

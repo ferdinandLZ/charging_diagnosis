@@ -40,7 +40,7 @@ function selectmultimessagedata(cell, state, type) {
             // adrcol = 2;
             dlccol = 5;
     }
-    console.log(cell[state.address]);
+    // console.log(cell[state.address]);
 
 
     if (cell[state.address].length > 0) {
