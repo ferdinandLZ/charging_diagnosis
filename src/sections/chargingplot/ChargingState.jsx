@@ -10,14 +10,7 @@ function ChargingState({chargingstate}) {
 
     const labelProps = {};
     labelProps.error = true
-    const steps = [
-      'Select master blaster campaign settings',
-      'Create an ad group',
-      'Create an ad',
-    ];
-    const statedic = [["充电机充电握手报文","充电机充电握手报文2"],["BMS握手2","BMS握手"],["充电机辨识","2#充电机辨识"],[{/*  BRM */}],[/* BCP  */],["充电机同步时间信息"],["充电桩最大输出能力"],
-    ["BMS准备就绪（BRO）","BMS准备就绪（BRO）2"],["充电机准备就绪（CRO）","2号充电机准备就绪（CRO）"],["电池充电需求","2#电池充电需求","充电机充电状态","2#充电机充电状态","BSM2（发送动力电池状态信息2）","BSM（BMS发送动力电池状态信息）"]]
-  return (
+   return (
     <Box sx={{ width: '100%' }}>
       <Stepper  alternativeLabel>
 

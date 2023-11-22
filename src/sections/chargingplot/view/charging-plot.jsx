@@ -581,12 +581,12 @@ function Chargingplot() {
 
         <Grid xs={12} md={6} lg={4}>
           <AppCurrentVisits
-            title="Current Visits"
+            title="Current SOC"
             chart={{
               series: [
                 { label: 'begain', value: socpievalue[1] },
-                { label: 'charged', value:  socpievalue[0]-socpievalue[1] },
-                { label: 'notcharging', value:  100-socpievalue[0]},
+                { label: 'charging', value:  socpievalue[0]-socpievalue[1] },
+                { label: 'remaining', value:  100-socpievalue[0]},
               ],
             }}
           />
