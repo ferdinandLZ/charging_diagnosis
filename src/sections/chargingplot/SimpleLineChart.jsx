@@ -5,7 +5,7 @@ import { LineChart } from '@mui/x-charts/LineChart';
 
 
 function SimpleLineChart({pdata}) {
-  const make = (pdata.length<1000);
+  const make = (pdata.length<200);
 if (pdata.length >0){
 
   return (
