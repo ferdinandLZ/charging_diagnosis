@@ -26,44 +26,44 @@ function ChargingState({chargingstate}) {
         <StepLabel >充电机辨识CRM</StepLabel>
         </Step> 
 
-        <Step key = "车辆辨识BRM" active={chargingstate[18]}>
+        <Step key = "车辆辨识BRM" active={chargingstate[20]}>
         <StepLabel >车辆辨识BRM</StepLabel>
         </Step> 
 
-        <Step key = "动力蓄电池充电参数BCP" active={chargingstate[19]}>
+        <Step key = "动力蓄电池充电参数BCP" active={chargingstate[21]}>
         <StepLabel >动力蓄电池充电参数BCP</StepLabel>
         </Step> 
 
-        <Step key = "充电机发送时间同步信息CTS"  active={chargingstate[6]}>
+        <Step key = "充电机发送时间同步信息CTS"  active={chargingstate[6]||chargingstate[7]}>
         <StepLabel >充电机发送时间同步信息CTS</StepLabel>
         </Step> 
 
-        <Step key = "充电机最大输出能力CML" active={chargingstate[7]}>
+        <Step key = "充电机最大输出能力CML" active={chargingstate[8]||chargingstate[9]}>
         <StepLabel >充电机最大输出能力CML</StepLabel>
         </Step> 
 
-        <Step key = "BMS充电准备就绪BRO" active={chargingstate[8]||chargingstate[9]}>
+        <Step key = "BMS充电准备就绪BRO" active={chargingstate[10]||chargingstate[11]}>
         <StepLabel >BMS充电准备就绪BRO</StepLabel>
         </Step> 
 
-        <Step key = "充电机输出准备就绪CRO" active={chargingstate[10]||chargingstate[11]}>
+        <Step key = "充电机输出准备就绪CRO" active={chargingstate[12]||chargingstate[13]}>
         <StepLabel >充电机输出准备就绪CRO</StepLabel>
         </Step> 
 
-        <Step key = "电池充电需求BCL" active={chargingstate[12]||chargingstate[13]}>
+        <Step key = "电池充电需求BCL" active={chargingstate[14]||chargingstate[15]}>
         <StepLabel >电池充电需求BCL</StepLabel>
         </Step> 
 
-        <Step key = "电池充电总状态BCS" active={chargingstate[20]}>
+        <Step key = "电池充电总状态BCS" active={chargingstate[22]}>
         <StepLabel >电池充电总状态BCS</StepLabel>
         </Step> 
 
 
-        <Step key = "充电机充电状态CCS" active={chargingstate[14]||chargingstate[15]}>
+        <Step key = "充电机充电状态CCS" active={chargingstate[16]||chargingstate[17]}>
         <StepLabel >充电机充电状态CCS</StepLabel>
         </Step>
 
-        <Step key = "动力电池状态信息BSM" active={chargingstate[16]||chargingstate[17]}>
+        <Step key = "动力电池状态信息BSM" active={chargingstate[18]||chargingstate[19]}>
         <StepLabel >动力电池状态信息BSM</StepLabel>
         </Step>
       </Stepper>
