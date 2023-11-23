@@ -14,7 +14,7 @@ const navConfig = [
   },
   {
     title: 'canplot',
-    path: '/charging_diagnosis/',
+    path: '/ploty/',
     icon: icon('ic_user'),
   },
   {

@@ -25,7 +25,7 @@ export default function CheckboxList({inputdictionary,passcheckedlistnumber}) {
     }
     passcheckedlistnumber(newChecked);
     setChecked(newChecked);
-    console.log(newChecked);
+    // console.log(newChecked);
   };
 
   return (
