@@ -26,7 +26,7 @@ export default function Router() {
       children: [
         { element: <IndexPage />, index: true },
         { path: 'charging_diagnosis', element: <ChargingPlot /> },
-        { path: 'charging_diagnosis', element: <ChargingPlot /> },
+        { path: 'ploty',element: <ChargingPlot /> },
       ],
     },
     {

@@ -14,7 +14,7 @@ const navConfig = [
   },
   {
     title: 'canplot',
-    path: '/ploty/',
+    path: 'https://ferdinandlz.github.io/ploty/',
     icon: icon('ic_user'),
   },
   {
